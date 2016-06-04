@@ -21,6 +21,7 @@ var cartTitleToggle = $(".cart-title");
 
 itemButtons.click(function(event) {
   var itemName = event.target.dataset.item;
+  // var itemImage = event.target.dataset.image;
   var itemPrice = event.target.dataset.price;
 
   // get the value of the quantity input that is associated with our button
