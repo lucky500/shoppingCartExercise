@@ -1,5 +1,8 @@
 body {
   font-family: sans-serif;
+  background-image:url('http://wallpaperstock.net/blue-vignetting-wallpapers_28443_1366x768.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
