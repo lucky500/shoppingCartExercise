@@ -3,57 +3,62 @@
   <head>
     <meta charset="utf-8">
     <title>Buy A Letter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/cart.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
     <div class="container">
-      <div class="items-container">
-        <!-- <div class="item-container">
-          <div class="item-thumbnail">A</div>
-          <div class="item-price-quantity">
-            <span class="item-price">$25</span>
-            <br><br>
-            <label>Quantity</label>
-            <input class="item-quantity" id="quantity-A" type="number" value="1"></input>
+      <div class="row">
+        <div class="items-container col-sm-1 col-md-9 col-lg-9 col-xl-9">
+          <!-- <div class="item-container">
+            <div class="item-thumbnail">A</div>
+            <div class="item-price-quantity">
+              <span class="item-price">$25</span>
+              <br><br>
+              <label>Quantity</label>
+              <input class="item-quantity" id="quantity-A" type="number" value="1"></input>
+            </div>
+            <div class="options-container">
+              <button data-quantityid="quantity-A" data-price="25" data-item="A" class="item-add">Add To Cart</button>
+            </div>
           </div>
-          <div class="options-container">
-            <button data-quantityid="quantity-A" data-price="25" data-item="A" class="item-add">Add To Cart</button>
+          <div class="item-container">
+            <div class="item-thumbnail">B</div>
+            <div class="item-price-quantity">
+              <span class="item-price">$35</span>
+              <br><br>
+              <label>Quantity</label><input class="item-quantity" id="quantity-B" type="number" value="1"></input>
+            </div>
+            <div class="options-container">
+              <button data-quantityid="quantity-B" data-price="35" data-item="B" class="item-add">Add To Cart</button>
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="item-thumbnail">C</div>
+            <div class="item-price-quantity">
+              <span class="item-price">$15</span>
+              <br><br>
+              <label>Quantity</label><input class="item-quantity" id="quantity-C" type="number" value="1"></input>
+            </div>
+            <div class="options-container">
+              <button data-quantityid="quantity-C" data-price="15" data-item="C" class="item-add">Add To Cart</button>
+            </div>
+          </div> -->
+          </div>
+  
+        <div class="cart-container col-sm-1 col-md-3 col-lg-3 col-xl-3">
+          <div class="cart-title-container">
+            <button class="cart-title btn btn-success">Shopping Cart</button><span class="cart-quantity"></span>
+            <div id="cart-contents">
+              <p>Shopping cart is empty.</p>
+            </div>
           </div>
         </div>
-        <div class="item-container">
-          <div class="item-thumbnail">B</div>
-          <div class="item-price-quantity">
-            <span class="item-price">$35</span>
-            <br><br>
-            <label>Quantity</label><input class="item-quantity" id="quantity-B" type="number" value="1"></input>
-          </div>
-          <div class="options-container">
-            <button data-quantityid="quantity-B" data-price="35" data-item="B" class="item-add">Add To Cart</button>
-          </div>
-        </div>
-        <div class="item-container">
-          <div class="item-thumbnail">C</div>
-          <div class="item-price-quantity">
-            <span class="item-price">$15</span>
-            <br><br>
-            <label>Quantity</label><input class="item-quantity" id="quantity-C" type="number" value="1"></input>
-          </div>
-          <div class="options-container">
-            <button data-quantityid="quantity-C" data-price="15" data-item="C" class="item-add">Add To Cart</button>
-          </div>
-        </div> -->
-      </div>
-      <div class="cart-container">
-        <div class="cart-title-container">
-          <button class="cart-title">Shopping Cart</button><span class="cart-quantity"></span>
-          <p id="cart-contents">
-            Your shopping cart is empty.
-          </p>
-        </div>
-      </div>
+      </div>  
     </div>
     <!-- libraries -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <!-- app specific javascript -->
     <script type="text/javascript" src="js/cart-data.js"></script>

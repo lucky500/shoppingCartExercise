@@ -2,37 +2,37 @@ var items = [
   {
     "id": "p0",
     "name": "The Big Poster",
-    "image": "https://s-media-cache-ak0.pinimg.com/736x/8b/55/30/8b5530268ad5eb995e209f997e38cec5.jpg",
+    "image": "http://i.imgur.com/AqTWB8U.jpg",
     "cost": 35
   },
   {
     "id": "p1",
     "name": "The Matrix Poster",
-    "image": "http://fashionretailnews.com/I/2016/05/astounding-luxury-house-designs-and-floor-plans-ultimanota-luxury-also-luxury-house-photos-architectures-photo-luxury-house-designs.jpg",
+    "image": "http://i.imgur.com/uVmGml6.jpg",
     "cost": 20
   },
   {
     "id": "p2",
     "name": "Deadpool Poster",
-    "image": "http://www.dupontregistry.com/portal08/images/Homes-LuxuryHome1.jpg",
+    "image": "http://i.imgur.com/N8eHzn2.jpg",
     "cost": 25
   },
   {
     "id": "t0",
     "name": "Green Day T-shirt",
-    "image": "http://www.idesignarch.com/wp-content/uploads/Contemporary-Luxury-Home-LA_1.jpeg",
+    "image": "http://i.imgur.com/jDPAn3i.jpg",
     "cost": 15
   },
   {
     "id": "t1",
     "name": "Red Hot Chili Peppers T-shirt",
-    "image": "http://www.zillow.com/blog/files/2010/09/Spelling-Manor1.jpg",
+    "image": "http://i.imgur.com/WlZ5sNc.jpg",
     "cost": 15
   },
   {
     "id": "t2",
     "name": "Beatles T-shirt",
-    "image": "http://picmia.com/img/773128.jpg",
+    "image": "http://i.imgur.com/N5CHzbJ.jpg",
     "cost": 15
   }
 ];
@@ -47,8 +47,8 @@ $.each(items, function(index, item) {
 
 function createItemElement(itemId, itemName, itemImage, itemCost) {
   var itemElement =
-    "<div class=\"item-container img\">" +
-    "<div class=\"img\"><img src=\"" + itemImage + "\" class=\"img\">" + "</div>" +
+    "<div class=\"item-container col-sm-1 col-md-3 col-lg-3 col-xl-3 clearfix\">" +
+    "<div><img src=\"" + itemImage + "\" class=\"img\">" + "</div>" +
     "<div class=\"item-thumbnail\">" + itemName + "</div>" +
     "<div class=\"item-price-quantity\">" +
     "<span class=\"item-price\">$" + itemCost + "</span>" +
