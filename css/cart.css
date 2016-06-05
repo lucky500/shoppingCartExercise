@@ -1,12 +1,7 @@
 /** {
   outline: 1px solid red;
-}
-*/
-@font-face {
-  font-family: 'Sketch_Block';
-  src: url('fonts/Sketch_Block.ttf');
-  /*src: local('Sketch Block'), local('Sketch'), url('fonts/Sketch_Block') format('truetype');*/
-}
+}*/
+
 
 html, body {
   min-height: 100%;
