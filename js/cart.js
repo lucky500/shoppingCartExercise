@@ -15,6 +15,12 @@ function outputBoldValue(value) {
   outputValue("<span class=\"heavy-text\">"+value+"</span>");
 }
 
+// this function will output a new string to the shopping cart
+function shoppingQuantity(cartQuantity){
+  $(".cart-title").html("");
+  $(".cart-title").append("Shopping Cart " + cartQuantity );
+}
+
 // pre-written functions from homework 3
 
 function addToCart(item, quantity, cost){
@@ -48,14 +54,26 @@ function printCartList(){
 
   var subTotal = 0;
 
+  // quantityTotal
+  var quantityTotalCart = 0;
+
+
   for (cartKey in cart) {
       var itemTotal = cart[cartKey]["quantity"] * cart[cartKey]["cost"];
 
+      // to make the quantity a number instead of value of an array
+      var quantityTotal = cart[cartKey]["quantity"]*1;
       // print your cart item to the output
       outputValue(cartKey + ": " + "$" + itemTotal + " (" + cart[cartKey]["quantity"] + ")");
 
       subTotal += itemTotal;
+
+      quantityTotalCart += quantityTotal;
   }
+
+  // to add the quantity Total in the cart
+  console.log(quantityTotalCart);
+  shoppingQuantity(quantityTotalCart);
 
   // print your subTotal to the output
   outputValue("Sub-total : "+ "$" + subTotal);
