@@ -2,7 +2,7 @@ var items = [
   {
     "id": "p0",
     "name": "U2 - War  - 1983",
-    "image": "http://i.imgur.com/f4HUDCM.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2e/U2_War_album_cover.jpg",
     "cost": 35
   },
   {
