@@ -95,7 +95,7 @@ function printTaxAndShipping(subTotal) {
   }
 
   // print shipping to the output
-  outputValue("Shipping: $" + shipping);
+  outputValue("Shipping: $" + shipping.toFixed(2));
 
   printTotal(subTotal, tax, shipping);
 }
@@ -104,5 +104,5 @@ function printTotal(subTotal, tax, shipping) {
   var total = subTotal + tax + shipping;
 
   // print total the output
-  outputBoldValue("Total: $" + total);
+  outputBoldValue("Total: $" + total.toFixed(2));
 }

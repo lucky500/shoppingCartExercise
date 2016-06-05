@@ -1,38 +1,38 @@
 var items = [
   {
     "id": "p0",
-    "name": "The Big Poster",
-    "image": "http://i.imgur.com/AqTWB8U.jpg",
+    "name": "U2 - War  - 1983",
+    "image": "http://i.imgur.com/f4HUDCM.jpg",
     "cost": 35
   },
   {
     "id": "p1",
-    "name": "The Matrix Poster",
-    "image": "http://i.imgur.com/uVmGml6.jpg",
+    "name": "The Smiths - Singles - 1995",
+    "image": "http://i.imgur.com/82hGY6m.jpg",
     "cost": 20
   },
   {
     "id": "p2",
-    "name": "Deadpool Poster",
-    "image": "http://i.imgur.com/N8eHzn2.jpg",
+    "name": "The Rolling Stones - Beggars Banquet - 1968",
+    "image": "http://i.imgur.com/03jTyhZ.jpg",
     "cost": 25
   },
   {
     "id": "t0",
-    "name": "Green Day T-shirt",
-    "image": "http://i.imgur.com/jDPAn3i.jpg",
+    "name": "The Cure  - Staring at the Sea - 1986",
+    "image": "http://i.imgur.com/gzEvzta.jpg",
     "cost": 15
   },
   {
     "id": "t1",
-    "name": "Red Hot Chili Peppers T-shirt",
-    "image": "http://i.imgur.com/WlZ5sNc.jpg",
+    "name": "The Clash - London Calling  - 1979",
+    "image": "http://i.imgur.com/gtAsvEM.jpg",
     "cost": 15
   },
   {
     "id": "t2",
-    "name": "Beatles T-shirt",
-    "image": "http://i.imgur.com/N5CHzbJ.jpg",
+    "name": "Beatles  - Abbey Road - 1969",
+    "image": "http://i.imgur.com/5wAe4WQ.jpg",
     "cost": 15
   }
 ];

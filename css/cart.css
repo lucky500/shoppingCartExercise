@@ -1,9 +1,22 @@
 /** {
   outline: 1px solid red;
-}*/
+}
+*/
+@font-face {
+  font-family: 'Sketch_Block';
+  src: url('fonts/Sketch_Block.ttf');
+  /*src: local('Sketch Block'), local('Sketch'), url('fonts/Sketch_Block') format('truetype');*/
+}
 
 html, body {
   min-height: 100%;
+}
+
+.title {
+  font-family: 'Oleo Script', cursive; Arial, sans-serif;
+  color: white;
+  font-size: 4em;
+  text-align: center;
 }
 
 body {
@@ -23,7 +36,6 @@ body {
   float: left;
   max-width: 100%;
   padding: 20px;
-  overflow: auto;
 }
 
 .item-container {
@@ -31,17 +43,21 @@ body {
   width: 325px;
   height: 425px;
   margin: 15px;
-  /*border: 1px solid gray;*/
   margin-bottom: 30px;
   color: #bdc3c7;
 }
 
 .cart-container {
-  /*background-color: orange;*/
   float: left;
-  text-align: right;
+  text-align: center;
   padding: 20px;
 }
+
+#cart-contents {
+  color: #ecf0f1;
+  font-size: 1.5em;
+}
+
 
 .item-price-quantity {
   text-align: center;
@@ -70,6 +86,7 @@ body {
 
 img {
   border-radius: 50%;
+  border: 4px solid #2980b9;
   width: 300px;
   max-width: 100%;
   -webkit-box-shadow: 32px 38px 35px -10px rgba(0,0,0,0.75);
@@ -93,6 +110,6 @@ img {
   margin-left: 5px;
 }
 
-/*.clearfix {
-  overflow: auto;
-}*/
+.modal-title {
+  text-align: center;
+}
