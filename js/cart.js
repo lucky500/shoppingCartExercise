@@ -18,7 +18,8 @@ function outputBoldValue(value) {
 // this function will output a new string to the shopping cart
 function shoppingQuantity(cartQuantity){
   $(".cart-title").html("");
-  $(".cart-title").append("Shopping Cart (" + cartQuantity + ")");
+  $(".cart-title").append("Shopping Cart (" + cartQuantity + ")" );
+
 }
 
 // pre-written functions from homework 3
@@ -56,7 +57,6 @@ function printCartList(){
 
   // quantityTotal
   var quantityTotalCart = 0;
-
 
   for (cartKey in cart) {
       var itemTotal = cart[cartKey]["quantity"] * cart[cartKey]["cost"];
