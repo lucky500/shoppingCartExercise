@@ -48,15 +48,15 @@ $.each(items, function(index, item) {
 function createItemElement(itemId, itemName, itemImage, itemCost) {
   var itemElement =
     "<div class=\"item-container col-sm-1 col-md-3 col-lg-3 col-xl-3 clearfix\">" +
-    "<div><img src=\"" + itemImage + "\" class=\"img\">" + "</div>" +
     "<div class=\"item-thumbnail\">" + itemName + "</div>" +
+    "<div><img src=\"" + itemImage + "\" class=\"img\">" + "</div>" +
     "<div class=\"item-price-quantity\">" +
     "<span class=\"item-price\">$" + itemCost + "</span>" +
-    "<br><br>" +
-    "<label>Quantity</label><input class=\"item-quantity\" id=\"" + itemId + "\" type=\"number\" value=\"1\"></input>" +
+    "<label>Qty: </label><input class=\"item-quantity\" id=\"" + itemId + "\" type=\"number\" value=\"1\"></input>" +
     "</div>" +
     "<div class=\"options-container\">" +
-    "<button data-quantityid=\"" + itemId + "\" data-price=\"" + itemCost + "\" data-item=\"" + itemName + "\" class=\"item-add\">Add To Cart</button>" +
+    "<button data-quantityid=\"" + itemId + "\" data-price=\"" + itemCost + "\" data-item=\"" + itemName + "\" class=\"item-add btn btn-success\">Add To Cart</button>" +
+    "<hr>" + 
     "</div>" +
     "</div>";
   // return the string of HTML we just created

@@ -8,20 +8,22 @@ html, body {
 
 body {
   font-family: sans-serif;
+  height: 100%;
+  background: linear-gradient(#928DAB, #1F1C2C);
 }
 
 .container {
   position: absolute;
   width: 100%;
-  /*max-width: 100%;*/
-  margin-top: 30px;
+  overflow: auto;
+  height: 100%;
 }
 
 .items-container {
-  background-color: lightblue;
   float: left;
   max-width: 100%;
   padding: 20px;
+  overflow: auto;
 }
 
 .item-container {
@@ -29,13 +31,15 @@ body {
   width: 325px;
   height: 425px;
   margin: 15px;
-  border: 1px solid gray;
+  /*border: 1px solid gray;*/
   margin-bottom: 30px;
+  color: #bdc3c7;
 }
 
 .cart-container {
-  background-color: orange;
+  /*background-color: orange;*/
   float: left;
+  text-align: right;
   padding: 20px;
 }
 
@@ -68,6 +72,25 @@ img {
   border-radius: 50%;
   width: 300px;
   max-width: 100%;
+  -webkit-box-shadow: 32px 38px 35px -10px rgba(0,0,0,0.75);
+}
+
+.item-thumbnail {
+  text-align: center;
+}
+
+.item-thumbnail, .img, .item-price, .item-price-quantity, .item-quantity {
+  margin-bottom: 15px;
+}
+
+.item-price {
+  margin-right: 20px;
+}
+
+.item-quantity {
+  width: 40px;
+  color: black;
+  margin-left: 5px;
 }
 
 /*.clearfix {
